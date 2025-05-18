@@ -1,0 +1,4 @@
+{
+    "js/ts.implicitProjectConfig.target": "ES2024",
+    "typescript.preferences.importModuleSpecifierEnding": "js"
+}
