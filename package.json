@@ -1,0 +1,32 @@
+{
+  "name": "@moduleerp/backend",
+  "version": "0.0.1",
+  "description": "Modular ERP system: simple and lightweight",
+  "homepage": "https://github.com/moduleERP/backend#readme",
+  "bugs": {
+    "url": "https://github.com/moduleERP/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moduleERP/backend.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.18",
+    "eslint": "^9.27.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fastify": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "tsx ./src/index.ts"
+  }
+}
